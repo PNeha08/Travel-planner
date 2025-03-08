@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding:0% ;
+}
+
+    
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    
+  }
+.nav{
+    margin: 0%;
+    position: relative;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(chatgptnight.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    color: rgb(177, 180, 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: -10px;
+    position: relative;
+    left: 20px;
+    
+  
+}
+.logo span{
+    color: darkgoldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+    width: 100px;
+    float: left;
+    height: 70px;
+
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    margin-top: -27px;
+    margin-left: 60px;
+    position: relative;
+    margin-bottom: -10px;
+    left: 300px;
+    
+    
+
+}
+ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+    transition: 2ms ease-in-out;
+    color: azure;
+}
+ul li a:hover{
+    color: darkorange;
+
+
+}
+.search{
+    position: relative;
+    left: 850px;
+    bottom: 20px;
+
+    
+}
+.srch{
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 23px;
+    border: 1px solid darkgoldenrod;
+    float: left;
+    font-size: 15px;
+    border-right: none;
+    border-bottom-left-radius: 5px ;
+    border-top-left-radius: 5px;
+    color: azure;
+
+}
+.btn{
+    
+    height: 25px;
+    width: 60px;
+    background: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    font-size: 15px;
+}
+.srch:focus{
+    outline: none;
+}
+
+
